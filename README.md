@@ -1,22 +1,21 @@
 **Specs**
 
-Describe: numberFetch();
+*Goal*
+* Create a webpage that gathers a value from a user. When submitted, the webpage will return to the user a list of all values from 0 through whatever number they have submitted.
+* Certain values will be changed to either a word or a phrase. More specificially, values containing a 1 will be changes to "Beep!", values containing a 2 will be changed to "Boop!", and values containing a 3 will be changed to "Won't you be my neighbor". If a user, for example, were to enter '10', they would get the following returned to them:<br>
+"0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!"
 
-Test: it should prompt the user to imput a value, and make an array the runs from zero through inputted value
+* Next, we need to identify a heirarchy of these values. The conversion of 1 to "Beep!" is the least important, 2 to "Boop!" is the second most important, and 3 to "Won't you be my neighbor", So, for instance, if a user entered "13" the return would be "...8, 9, Beep!, Beep!, Boop!, Won't you be my neighbor". In other words, the conversion of a 1 digit is negated by the presence of a 2, and the conversion of a 2 is negated by the presence of a 3.
 
-code:
-const value = "5"
-numberFetch(value);
-Expected Output: ("0", "1", "2", "3, "4", "5");
+* It is my opinion that the difficulty of these functions in order of simplest to most difficut is:
 
-Describe: numberConverter()
+* Writing an array that returns the values to the user
 
-Test: it should convert numbers that contain certain values into strings that are words and/or phrases, specifically the following: <BR>
-Digits containing a 1 are converted to "Beep!"
-<br>Numbers containing a "2" are converted to "Boop!"
-<br>Numbers containing a "3" are converted to "Won't you be my neighbor"
-<br>The exceptions to this are as follows:
+* Writing a function to convert 1, 2, and 3 to their respective values
+
+* Writing a function that states the heirachy of the conversions 4
+
+
+*Known Bugs*
 <br>
-
-The importance of these rules are listed from least to most. In other words, "100" would convert to "Beep!" whereas "12" would convert to "Boop!". If "3" is the most important rule, than any value containing a "3" is dominated by that rule. Whereas "1" would return "Beep!", "1112" would return "Boop!", "122223" would return "Won't you be my neighbor?"
-
+11/18, the javascript that is written will not work, but I feel is a step in the right direction.

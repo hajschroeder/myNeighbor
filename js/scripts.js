@@ -1,13 +1,15 @@
-function myNeighbor(string){
-  let thisArray = string.split("");
-  for (let i=0; i < thisArray.length; i++) {
-    if (thisArray[i] === "1") {
-      thisArray.splice(i, 1, "Beep!",);
+function myNeighbor(input) {
+  let switchArray = [];
+  for (let i = 0; i <= input; i++) {
+    if (switchArray[i] === 3) {
+      return "Bop!";
+    } else if (switchArray[i] === 2) {
+      return "Boop!";
+    } else (switchArray[i] === 1) 
+      return "Beep!";
     }
-  }
-  return  thisArray.join(" ");
-}
 
-myNeighbor(1);
+  }
+
 
 
