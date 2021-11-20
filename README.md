@@ -13,6 +13,13 @@
 * Github and GitBash
 * JSQuery (v 3.6.0)
 
+## Setup/Installation
+* Clone this repository to your desktop
+* Navigate to the top level of the directory
+* Open index.html in your browser
+* _All you need to view this site portfolio is an internet connected device_
+* _As a public repository, a GitHub account is not required but it is recommended_
+
 ## Description:
 _The purpose of this website is to serve as my third Code Review for Epicodus._
 
@@ -33,9 +40,18 @@ _The purpose of this website is to serve as my third Code Review for Epicodus._
 
 *Known Bugs*
 <br>
-* 11/18, the javascript that is written will not work, but I feel is a step in the right direction.
+* 11/18
+  * The javascript that is written will not work, but I feel is a step in the right direction.
 
 <br>
 
-* 11/20, the original script was abandoned (for now) and a new direction is being pursued. 
+* 11/20 
+  * The original script was abandoned (for now) and a new direction is being pursued, this new script is still receiving errors in the console log 
+  * The HTML is far from finished 
 
+
+## License 
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Copyright
+Hans J Schroeder 2021

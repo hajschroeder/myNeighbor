@@ -1,0 +1,13 @@
+.btn {
+  display: block;
+}
+
+#output {
+  display: none;
+}
+
+.container {
+  margin: 40px;
+  border: 40px;
+  padding: 8px
+}
